@@ -1,10 +1,22 @@
 body {
   font-family: "Helvetica", sans-serif;
+  background-color: #white;
+  cursor: crosshair;
 }
 
 h2 {
-  color: #7A0019;
+  color: black;
 }
+
+h1, h2, h3, h4, h5, h6, a, li, em, div, li {}
+.page-wrap{width:1400px;margin:0 auto;}
+#nav-links{background: lightblue; padding: 30px; font-variant-caps: all-small-caps;}
+#nav-links li{display: inline;background: white; padding: 20px}
+#nav-links li a{}
+#nav-links li:hover{background-color: #f2f2f2}
+h1{text-align: center;font-family: helvetica;font-weight: lighter;letter-spacing: 1pt; font-size: 36pt; font-variant-caps: small-caps;line-height: 1px;padding-top: 30px}
+h2{font-family:helvetica; font-weight:lighter; font-style: italic; text-align: center;}
+h3{font-family:helvetica; font-weight:lighter; font-style: italic; text-align: center; background-color: #f0dbeb}
 
 #contact {
   background-color: #FFDE7A;
