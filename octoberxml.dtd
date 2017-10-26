@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8">
+
+<!ELEMENT featuredproduct (features+, artisan?, quickbio)>
+<!ELEMENT features (#PCDATA)>
+<!ELEMENT artisan (#PCDATA)>
+<!ELEMENT quickbio (#PCDATA)>
+
+<!ELEMENT artisan (age+, location?, story)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT story (#PCDATA)>
+
+<!ELEMENT product (class?, prodtype?, size?, color+, artisan?)>
+<!ELEMENT class (womens | mens | girls | boys)>
+<!ELEMENT prodtype (complete | hats | tops | skirts | pants | sashes | accessories)
+<!ELEMENT size (small | medium | large)>
+<!ELEMENT color (black | blue | red | green)
+<!ELEMENT artisan (#PCDATA)>
