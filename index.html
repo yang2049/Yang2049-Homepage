@@ -32,27 +32,14 @@
 
 <!-- 1.jpg -->
 <img id="myImg" src="https://farm5.staticflickr.com/4686/38351094554_8465bbc031_z.jpg" alt="Pink striped outfit, including top and pants, accessorized with handsewn beads and coins. Top may be worn with a skirt. Designed by Mee Vang." height="700px">
-
-<!-- The Modal -->
 <div id="myModal" class="modal">
-
-  <!-- The Close Button -->
   <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
   <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
   <div id="caption">asdf asdf </div>
 </div>
 
-
-
 <script>
-// Get the modal
 var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -62,10 +49,7 @@ img.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
 }
@@ -75,27 +59,17 @@ span.onclick = function() {
 
 <!-- 2.jpg -->
 <img id="myImg2" src="https://farm5.staticflickr.com/4690/27283970419_e5b863eef5_z.jpg" alt="Violet striped outfit, including top and pants, accessorized with handsewn beads and coins. Top may be worn with a skirt. Designed by Mee Vang." height="700px">
-
-<!-- The Modal -->
 <div id="myModal" class="modal">
 
-  <!-- The Close Button -->
   <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
   <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
   <div id="caption">asdf asdf </div>
 </div>
 
 
 
 <script>
-// Get the modal
 var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('myImg2');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -104,11 +78,7 @@ img.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
 }
@@ -118,27 +88,17 @@ span.onclick = function() {
 
 <!-- 3.jpg -->
 <img id="myImg3" src="https://farm5.staticflickr.com/4580/27283970259_e3eaa253cb_z.jpg" alt="Outfit with red with yellow embellishments, including top and skirt, accessorized with handsewn beads and coins. Designed by Mee Vang." height="700px">
-
-<!-- The Modal -->
 <div id="myModal" class="modal">
-
-  <!-- The Close Button -->
   <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
   <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
   <div id="caption">asdf asdf </div>
 </div>
 
 
 
 <script>
-// Get the modal
-var modal = document.getElementById('myModal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+var modal = document.getElementById('myModal');
 var img = document.getElementById('myImg3');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
@@ -148,10 +108,8 @@ img.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modal.style.display = "none";
 }
