@@ -9,7 +9,7 @@ h2 {
 }
 
 h1, h2, h3, h4, h5, h6, a, li, em, div, li {}
-.page-wrap{width:1400px;margin:0 auto;}
+.page-wrap{width:100%;margin:0 auto;}
 #nav-links{background: lightblue; padding: 30px; font-variant-caps: all-small-caps;}
 #nav-links li{display: inline;background: white; padding: 20px}
 #nav-links li a{}
